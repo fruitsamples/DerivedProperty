@@ -1,5 +1,5 @@
 DerivedProperty
----------------
+===============
 
 This example illustrates two concepts:
 
@@ -24,6 +24,27 @@ This solution of maintaining a derived property and searching is much more effic
 
  'regularText contains[dc] $value'
  
-for large data sets, each row in the regulatText table will be transformed at search time. With the example solution we normalize the string once when it's created and then use it to perform a much more efficient search.
+for large data sets, each row in the regularText table will be transformed at search time. With the example solution we normalize the string once when it's created and then use it to perform a much more efficient search.
 
-Copyright (C) 2008 Apple Inc. All Rights Reserved.
+===========================================================================
+BUILD REQUIREMENTS
+
+Xcode 3.2, Mac OS X 10.6 Snow Leopard or later.
+
+===========================================================================
+RUNTIME REQUIREMENTS
+
+Mac OS X 10.6 Snow Leopard or later.
+
+===========================================================================
+CHANGES FROM PREVIOUS VERSIONS
+
+Version 1.2
+- Project updated for Xcode 4.
+Version 1.1
+- Updated build requirements to be Xcode 3.1 instead of 3.0.
+Version 1.0
+- Initial Version
+
+===========================================================================
+Copyright (C) 2008-2011 Apple Inc. All rights reserved.
